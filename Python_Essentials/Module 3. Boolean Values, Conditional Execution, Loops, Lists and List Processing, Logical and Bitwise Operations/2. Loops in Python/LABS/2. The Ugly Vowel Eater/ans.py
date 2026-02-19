@@ -26,4 +26,4 @@ for i in range(n):
     if user_word[i] in ('A','I','E','O','U'):
       continue
     else:
-        print(user_word[i])
+        print(user_word[i], end="")
